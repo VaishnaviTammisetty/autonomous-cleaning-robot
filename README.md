@@ -23,14 +23,31 @@ An interactive 2D simulation of a domestic cleaning robot that combines systemat
 
 **Prerequisite:** Python 3.10 or newer.
 
+### macOS / Linux
+
 ```bash
-git clone https://github.com/VaishnaviTammisetty/autonomous-cleaning-robot.git
+git clone https://github.com/YOUR-USERNAME/autonomous-cleaning-robot.git
 cd autonomous-cleaning-robot
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\\Scripts\\activate
+python3 -m venv .venv
+source .venv/bin/activate  # macOS / Linux
+source .venv/bin/activate
 pip install -r requirements.txt
-python ROBOT_CLEANING.py
+python3 ROBOT_CLEANING.py
 ```
+
+On Windows (PowerShell), use `py -m venv .venv`, then
+`.venv\\Scripts\\Activate.ps1`, and replace `python3` with `py`.
+### Windows (PowerShell)
+
+```powershell
+git clone https://github.com/YOUR-USERNAME/autonomous-cleaning-robot.git
+cd autonomous-cleaning-robot
+py -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+py ROBOT_CLEANING.py
+```
+
 
 ## Controls
 
