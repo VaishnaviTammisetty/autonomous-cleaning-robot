@@ -24,7 +24,7 @@ An interactive 2D simulation of a domestic cleaning robot that combines systemat
 **Prerequisite:** Python 3.10 or newer.
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/autonomous-cleaning-robot.git
+git clone https://github.com/VaishnaviTammisetty/autonomous-cleaning-robot.git
 cd autonomous-cleaning-robot
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\\Scripts\\activate
@@ -43,11 +43,7 @@ python ROBOT_CLEANING.py
 | `>` / `<` | Increase or decrease steps per frame |
 | `Q` or window close | Exit |
 
-## Resume-ready description
 
-> Developed an interactive autonomous cleaning-robot simulator in Python/Pygame, combining systematic boustrophedon coverage planning with weighted A* navigation. Modelled LIDAR obstacle sensing, turn/revisit energy costs, room-level progress, and autonomous charging-dock return through a live visual dashboard.
-
-**Skills:** Python, Pygame, A* search, BFS, graph traversal, heuristic search, simulation, UI visualisation.
 
 ## Project structure
 
